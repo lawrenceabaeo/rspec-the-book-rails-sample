@@ -1,6 +1,7 @@
-# Copied from two sources: 
+# Copied from: 
 # https://github.com/github/gitignore/blob/master/Rails.gitignore
-# http://www.sujee.net/tech/articles/gitignore/ 
+# http://www.sujee.net/tech/articles/gitignore/
+# http://ruby.railstutorial.org/book/ruby-on-rails-tutorial#code-gitignore
 *.rbc
 capybara-*.html
 .rspec
@@ -33,3 +34,9 @@ config/secrets.yml
 *.swp
 *.out
 
+# Ignore other unneeded files.
+database.yml
+doc/
+.project
+.idea
+.secret
